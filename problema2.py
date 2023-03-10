@@ -33,3 +33,25 @@ products = [
 { "id": 5, "name": "Laptop Gamer", "type": "Gaming", "stock": 11, "price": 2500 },
 { "id": 6, "name": "Nintendo Switch OLED", "type": "Gaming", "stock": 25, "price": 400 },
 ]
+
+
+
+
+def ver_inventario(self):
+        print("INVENTARIO")
+        for type,productos in self.new_product.items():
+            print(f"{type.upper()}")
+            for producto in productos:
+                productos.mostrar()
+
+
+#for type,lista in self.products.items():
+            #for type in lista:
+                #if type=="Hogar":
+                    #b =type(lista['id'],lista['name'],lista['type'],lista['stock'],lista['price'])
+                #elif type=="Ropa":
+                    #b =type(lista['id'],lista['name'],lista['type'],lista['stock'],lista['price'])
+                #else:
+                    #b =type(lista['id'],lista['name'],lista['type'],lista['stock'],lista['price'])
+                #b =Refresco(bebida['']
+                #self.new_product['Hogar'if isinstance(b,Hogar) "Ropa" elif isinstance(b,Ropa) else 'Gaming'].append(b)
